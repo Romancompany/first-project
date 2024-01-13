@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(2, 80px);
+  /*    justify-items: center;*/
+  /*    align-items: end;*/
+  place-items: end center;
+
+  /* Ваш код */
+  gap: 10px;
+  min-width: 850px;
+  min-height: 100vh;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  background-color: #5f0dee;
+}
+
+p {
+  font-size: 24px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  border: 2px solid #000;
+  padding: 10px;
+}
